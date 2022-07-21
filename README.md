@@ -15,6 +15,7 @@ Your users should be able to:
 Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
 ## Frontend Mentor - Advice Generator App
+I took a lot of inspiration for this app from this article, [React Libraries for 2022](https://www.robinwieruch.de/react-libraries/#how-to-create-a-react-project).
 Built using [Vitejs](https://vitejs.dev/) instead of Create React App
 Installed [React Query](https://tanstack.com/query/v4/docs/overview) as dependency
 
