@@ -93,3 +93,9 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+
+### Vitejs
+`npm create vite@latest advice-generator-app --template react`
+`cd advice-generator-app`
+`npm install`
+`npm run dev`
