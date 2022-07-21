@@ -1,15 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import { QueryClient, QueryClientProvider, useQuery } from '@tanstack/react-query'
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
+const queryClient = new QueryClient()
+
+export default function App() {
+  return (
+  <QueryClientProvider client={queryClient}>
+    <Quote />
+  </QueryClientProvider>
+  )
+
+  function Quote() {
+    const {isLoading, error, data} = useQuery(['data'], ()=> 
+    fetch('https://api.adviceslip.com/advice').then(res =>
+    res.json()
+    )
+  )
+
+  if (isLoading) return 'Loading...'
+  if (error) return 'An error has occurred: ' + error.message
 
   return (
-    <div className="App">
-Advice Generator App
+    <div>
+      <h1>Advice Generator App</h1>
     </div>
   )
 }
-
-export default App

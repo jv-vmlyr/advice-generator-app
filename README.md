@@ -1,4 +1,8 @@
 # VMLY&R Code Challenge
+used Vitejs instead of Create React App
+Installed [React Query](https://tanstack.com/query/v4/docs/overview) as dependency
+
+Then broke it.
 
 ## Frontend Mentor - Advice Generator App
 
