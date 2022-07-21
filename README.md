@@ -12,14 +12,13 @@ Your users should be able to:
 - See hover states for all interactive elements on the page
 - Generate a new piece of advice by clicking the dice icon
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
 ## Frontend Mentor - Advice Generator App
 I took a lot of inspiration for this app from this article, [React Libraries for 2022](https://www.robinwieruch.de/react-libraries/#how-to-create-a-react-project).
 [Repo available here](https://github.com/jv-vmlyr/advice-generator-app)
--Built using [Vitejs](https://vitejs.dev/) instead of Create React App
--Installed [React Query](https://tanstack.com/query/v4/docs/overview) as dependency
--Deployed to Vercel ==> https://advice-generator-app-six-chi.vercel.app/
+- Built using [Vitejs](https://vitejs.dev/) instead of Create React App
+- Installed [React Query](https://tanstack.com/query/v4/docs/overview) as dependency
+- Deployed to Vercel ==> https://advice-generator-app-six-chi.vercel.app/
 
 
 ## Sharing my solution
@@ -29,10 +28,10 @@ Good question!  TBD.
 
 
 ### Vitejs
-1.`npm create vite@latest advice-generator-app --template react`
-2.`cd advice-generator-app`
-3.`npm install`
-4.`npm run dev`
+1. `npm create vite@latest advice-generator-app --template react`
+2. `cd advice-generator-app`
+3. `npm install`
+4. `npm run dev`
 
 
 **Have fun building!** 🚀
