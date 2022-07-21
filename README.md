@@ -1,12 +1,10 @@
 # VMLY&R Code Challenge
-used Vitejs instead of Create React App
+Built using [Vitejs](https://vitejs.dev/) instead of Create React App
 Installed [React Query](https://tanstack.com/query/v4/docs/overview) as dependency
 
-Then broke it.
+Deployed to Vercel ==> https://advice-generator-app-six-chi.vercel.app/
 
 ## Frontend Mentor - Advice Generator App
-
-![Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
