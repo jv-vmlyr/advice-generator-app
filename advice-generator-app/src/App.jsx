@@ -8,8 +8,8 @@ export default function App() {
   <QueryClientProvider client={queryClient}>
     <Quote />
   </QueryClientProvider>
-  )
-
+  );
+  }
   function Quote() {
     const {isLoading, error, data} = useQuery(['data'], ()=> 
     fetch('https://api.adviceslip.com/advice').then(res =>
@@ -22,7 +22,8 @@ export default function App() {
 
   return (
     <div>
-      <h1>Advice Generator App</h1>
+      <h3>Advice Generator App</h3>
+      <h1>{data.slip.advice}</h1>
     </div>
   )
 }
